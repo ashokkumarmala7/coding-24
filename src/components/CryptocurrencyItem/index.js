@@ -10,7 +10,7 @@ const CryptocurrencyItem = props => {
     euroValue,
   } = cryptocurrencyDetails
   return (
-    <li className="cryptocurrency-item">
+    <li className="cryptocurrencies-item">
       <div className="logo-and-title-container" data-testid="loader">
         <img
           className="currency-logo"
